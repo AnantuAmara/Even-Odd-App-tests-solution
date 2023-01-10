@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-2 {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.heading {
+  color: #0f172a;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 600;
+}
+.paragraph {
+  color: #334155;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.button {
+  background-color: #ffffff;
+  color: #1e293b;
+  font-size: 10px;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.para-2 {
+  color: #1e293b;
+  font-size: 10px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+  .paragraph {
+    font-size: 25px;
+  }
+  .button {
+    font-size: 15px;
+  }
+  .para-2 {
+    font-size: 13px;
+  }
+}
